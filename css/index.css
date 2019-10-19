@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bg {
+    background: #f7f7f7;
+}
+
+.bb {
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+.bb h4 {
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.bb p {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.55)
+}
+
+.media img {
+    margin-top: 20px;
+    width: 10%;
+    height: 15vh;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.media-body h5 {
+    margin-top: 15px !important;
+    margin-bottom: 0px;
+}
+
+.media-body span {
+    margin-top: 0px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    background: #DA4453;
+    outline: none;
+    border: none;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+}
+
+.bg-3 {
+    background: #8CC152;
+}
+
+.card-title img {
+    width: 30%;
+    height: 17vh;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+
+.col-6 img {
+    width: 40% !important;
+}
+
+.bg-fb {
+    background: #3B5998;
+}
+
+.bg-phone {
+    background: #27AE60;
+}
+
+.bg-twitter {
+    background: #4099FF;
+}
+
+.round {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+@media (max-width:550px) {
+    .container {
+        width: 90% !important;
+    }
+}
