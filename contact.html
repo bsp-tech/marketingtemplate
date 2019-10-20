@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StickyMobile</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<div class="card mt-5 shadow-lg">
+					<div class="card-body">
+						<form method="post">
+							<div class="form-group">
+								<label for="name">Name:</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="email">Email:</label>
+								<input type="email" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="message">Message:</label>
+								<textarea class="form-control" rows="6"></textarea>
+							</div>
+							<button class="btn btn-danger btn-block font-weight-bold">SEND MESSAGE</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div id="map-container" class="shadow-lg map-container my-4">
+				  <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" aria-hidden="true" frameborder="0" style="height: 600px; width: 100%;" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="card mt-5 shadow-lg">
+					<div class="card-body">
+						<address>
+							<strong>Postal Information</strong><br>
+							PO Box 22161 Street Collins East<br>
+							PO Box 16122 Collins Street West<br>
+							Victoria 8007 Australia<br>
+						</address>
+						<hr class="my-4">
+						<address>
+							<strong>Envato Headquarters</strong><br>
+							121 King Street, Melbourne<br>
+							Victoria 3000 Australia<br>
+						</address>
+						<div class="link-list d-flex flex-column">
+							<a href="#" class="text-decoration-none py-3 border border-left-0 border-right-0">
+								<i class="fas fa-phone text-success"></i>
+								<span class="text-dark">+1 234 567 8900</span>
+								<span class="badge badge-danger float-right">TAP TO CALL</span>
+							</a>
+							<a href="#" class="text-decoration-none py-3 border-bottom">
+								<i class="fas fa-envelope text-primary"></i>
+								<span class="text-dark">mail@domain.com</span>
+								<span class="badge badge-danger float-right">TAP TO MAIL</span>
+							</a>
+							<a href="#" class="text-decoration-none py-3 border-bottom">
+								<i class="fab fa-facebook-square"></i>
+								<span class="text-dark">enabled.labs</span>
+								<i class="fa fa-link float-right text-dark"></i>
+							</a>
+							<a href="#" class="text-decoration-none py-3 border-bottom">
+								<i class="fab fa-twitter"></i>
+								<span class="text-dark">@iEnabled</span>
+								<i class="fa fa-link float-right text-dark"></i>
+							</a>
+							<a href="#" class="text-decoration-none py-3">
+								<i class="fab fa-linkedin"></i>
+								<span class="text-dark">@Enabled</span>
+								<i class="fa fa-link float-right text-dark"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
