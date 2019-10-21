@@ -1,0 +1,10 @@
+.s-1{
+    background-image:url(https://ncsoft.com.tr/wp-content/uploads/2018/09/work-bg.jpg);
+    background-size:cover;
+}
+input[type="text"]{
+    outline:none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
